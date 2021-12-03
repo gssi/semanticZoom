@@ -3,4 +3,10 @@ Bundle-ManifestVersion: 2
 Bundle-Name: SemanticZoomingModeling
 Bundle-SymbolicName: SemanticZoomingModeling; singleton:=true
 Bundle-Version: 0.1.0.qualifier
-Require-Bundle: org.eclipse.emf.ecore
+Require-Bundle: org.eclipse.emf.ecore,
+ org.junit,
+ org.eclipse.epsilon.common,
+ org.eclipse.epsilon.emc.emf,
+ org.eclipse.epsilon.etl.engine,
+ org.eclipse.epsilon.etl.staticanalyser,
+ org.eclipse.epsilon.eol.staticanalyser;bundle-version="1.0.0"
